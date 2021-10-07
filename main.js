@@ -43,7 +43,7 @@ questionContainer.forEach(x=>x.addEventListener("click",()=>{
         x.querySelector("img").classList.toggle("arrow-logo-reverse")
     }
 }))
-
+//ADDED COMMENT
 const emailCheck = () => {
     emailInput.parentElement.classList.remove("wrong")
     document.querySelector(".wrong-mail").classList.remove("wrong-mail-visible")
